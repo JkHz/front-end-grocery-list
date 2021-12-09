@@ -1,4 +1,13 @@
-const App = () => (
+import React from 'react';
+
+class App extends React.Component {
+  constructor(props) {
+    super();
+  }
+
+
+  render() {
+    return (
   <div>
     <img src="grocery-bags.png" />
     <h1>Grocery List</h1>
@@ -25,6 +34,8 @@ const App = () => (
       </ul>
     </form>
   </div>
-);
+  );
+  }
+}
 
 export default App;
